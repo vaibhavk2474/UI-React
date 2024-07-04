@@ -1,0 +1,99 @@
+.App {
+  background: #ffffff;
+  box-shadow: 0px 9px 26px 0px #7373731a;
+}
+
+/* Header classes */
+.header {
+  /* width: 300px; */
+  height: 500px;
+  background-image: url("./assets/bg1.png"); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.a {
+}
+
+a:focus,
+a:focus-visible {
+  outline: none;
+}
+
+.desc-section .right-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.desc-section .right-box ul {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Requirement section */
+
+ul.custom-list {
+  list-style-image: url("./assets/checkedIcon.png");
+  list-style-position: outside; /* Keep list marker inside */
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+ul.custom-list li {
+  margin: 1rem 0;
+  display: list-item;
+  justify-content: start;
+  align-items: center;
+  line-height: 2.5rem;
+  padding-left: 0.5rem;
+}
+
+/* how works */
+
+.how-works-section .list li {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+/* utils classes */
+
+.h-fit-content {
+  height: fit-content;
+}
+.w-fit-content {
+  width: fit-content;
+}
+
+/* ................... */
+
+.test-2 {
+}
+.test-2 .test {
+  display: none;
+}
+
+.test-2:hover .test {
+  display: inline-block;
+}
+
+.flex-60-percentage {
+  flex: 100%;
+}
+.flex-40-percentage {
+  flex: 100%;
+}
+
+@media (min-width: 640px) {
+  .flex-60-percentage {
+    flex: 60%;
+  }
+  .flex-40-percentage {
+    flex: 40%;
+  }
+
+  .how-works-section .list li {
+    max-width: 38rem;
+    min-width: 38rem;
+  }
+}

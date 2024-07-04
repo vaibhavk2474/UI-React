@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  --color-green: #00732f;
+  --color-grey: #6d6e71;
+  --color-black-grey: #3e3e3e;
+  --color-orange: #e7760d;
+  --color-dark-blue: #072f57;
+  --color-purple: #e8fbff;
+  --color-shaded-blue: #123557;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 48.5%;
+  }
+}
